@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --background: #F5F5F5;
+    --background: #f5f5f5;
     --foreground: #171717;
 }
 
@@ -17,7 +17,7 @@
 body {
     color: var(--foreground);
     background: var(--background);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 @layer utilities {
@@ -28,10 +28,10 @@ body {
 
 @layer base {
     :root {
-        --prim: #231F20;
-        --sec: #FFFFFF;
-        --highlight: #F26F71;
-        --background: #F5F5F5;
+        --prim: #231f20;
+        --sec: #ffffff;
+        --highlight: #f26f71;
+        --background: #f5f5f5;
         --foreground: 0 0% 3.9%;
         --card: 0 0% 100%;
         --card-foreground: 0 0% 3.9%;
@@ -89,7 +89,13 @@ body {
     * {
         @apply border-border;
     }
+
     body {
         @apply bg-background text-foreground;
+    }
+
+    .padded-page {
+        @apply px-2 sm:px-[5rem] md:px-[10rem] 
+               lg:px-[15rem] xl:px-[20rem];
     }
 }
