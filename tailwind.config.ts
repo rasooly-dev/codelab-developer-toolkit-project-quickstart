@@ -10,9 +10,9 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                prim: "var(--prim)",
-                sec: "var(--sec)",
-                highlight: "var(--highlight)",
+                prim: "hsl(var(--prim))",
+                sec: "hsl(var(--sec))",
+                highlight: "hsl(var(--highlight))",
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
                 card: {

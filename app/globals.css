@@ -28,9 +28,9 @@ body {
 
 @layer base {
     :root {
-        --prim: #231f20;
-        --sec: #ffffff;
-        --highlight: #f26f71;
+        --prim: 345 6% 13%;
+        --sec: 0 0% 100%;
+        --highlight: 359 83% 69%;
         --background: #f5f5f5;
         --foreground: 0 0% 3.9%;
         --card: 0 0% 100%;

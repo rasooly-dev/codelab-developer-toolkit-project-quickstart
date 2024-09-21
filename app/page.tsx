@@ -1,8 +1,9 @@
 import { FC, ReactNode } from "react";
 
 export default function Home() {
+
     return (
-        <div className="m-auto text-center px-5">
+        <div className="m-auto text-center padded-page">
             <h1 className="text-2xl font-bold">
                 CodeLab Developer Toolkit Project Template
             </h1>
